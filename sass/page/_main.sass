@@ -1,0 +1,43 @@
+body
+  .page-wrapper
+    .page-content
+      main.main
+        .grid
+          position: relative
+          width: 100%
+          opacity: 0
+          transition: opacity 0.5s linear 1s
+          margin: auto
+          &.active-items
+            opacity: 1
+          .item
+            position: absolute
+            display: block
+            padding: 0
+            margin: 10px
+            width: calc(19.5% - 20px)
+            .item-content
+              height: 10rem
+              background: #fff
+              border: 1px solid #ccc
+              .item-img
+                position: relative
+                height: 65%
+                overflow: hidden
+                img
+                  cursor: pointer
+                  width: 100%
+                  height: 100%
+                  vertical-align: top
+                  transition: .3s
+                  &:hover
+                    transform: scale(1.3)
+              .item-btn
+                height: 35%
+                text-align: center
+                position: relative
+                a.btn
+                  position: absolute
+                  top: 50%
+                  left: 50%
+                  transform: translate(-50%, -50%)

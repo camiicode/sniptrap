@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>Free Snippets | Bootstrap 4</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://coredeiv.github.io/bootstraplus/css/styles.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="shorcut icon" type="image/png" href="media/logo/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="page-wrapper chiller-theme toggled">
+      <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+        <i class="fas fa-bars"></i>
+      </a>
+      <nav id="sidebar" class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-brand">
+            <a href="#">Snippets</a>
+            <!-- <div id="close-sidebar">
+              <i class="fas fa-times"></i>
+            </div> -->
+          </div>
+          <div class="sidebar-header">
+            <div class="user-pic">
+              <img class="img-responsive img-rounded" src="media/logo/logo.png"
+                alt="User picture">
+            </div>
+            <div class="user-info">
+              <span class="user-name">Free Snippets</span>
+              <span class="user-role">Bootstrap 4</span>
+            </div>
+          </div>
+          <!-- sidebar-header  -->
+          <div class="sidebar-search">
+            <div>
+              <div class="input-group">
+                <input type="text" class="form-control search-menu" placeholder="Search..." id="search-bar">
+                <div class="input-group-append">
+                  <span class="input-group-text">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- sidebar-search  -->
+          <div class="sidebar-menu">
+            <ul id="navbar-bar-categories">
+              <li class="header-menu">
+                <span>General</span>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fab fa-bootstrap"></i>
+                  <span>Library</span>
+                </a>
+                <div class="sidebar-submenu just_bootstrap">
+                  <ul>
+                    <li>
+                      <a href="#" class="list-item" id="all-snip">All Snippets</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">FAQ´s</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Banners</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Buttons</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Category</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Our Client</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Collections</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Contact</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Deals of the Day</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Feature</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Gallery</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Parrallax</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Portfolio</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Prices</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Promotion`s</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Services</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Slider`s</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Tabs</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Our Team</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Testimonials</a>
+                    </li>
+                    <li>
+                      <a href="#" class="list-item">Pop Up Video</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fas fa-info-circle"></i>
+                  <span>Information</span>
+                  <!-- <span class="badge badge-pill badge-danger">3</span> -->
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="views/page/information/documentation.html">Documentation</a>
+                    </li>
+                    <li>
+                      <a href="views/page/information/repository.html">Repository</a>
+                    </li>
+                    <li>
+                      <a href="views/page/information/examples.html">Examples</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="far fa-gem"></i>
+                  <span>Components</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">General</a>
+                    </li>
+                    <li>
+                      <a href="#">Panels</a>
+                    </li>
+                    <li>
+                      <a href="#">Tables</a>
+                    </li>
+                    <li>
+                      <a href="#">Icons</a>
+                    </li>
+                    <li>
+                      <a href="#">Forms</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-chart-line"></i>
+                  <span>Charts</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">Pie chart</a>
+                    </li>
+                    <li>
+                      <a href="#">Line chart</a>
+                    </li>
+                    <li>
+                      <a href="#">Bar chart</a>
+                    </li>
+                    <li>
+                      <a href="#">Histogram</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-globe"></i>
+                  <span>Maps</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">Google maps</a>
+                    </li>
+                    <li>
+                      <a href="#">Open street map</a>
+                    </li>
+                  </ul>
+                </div>
+              </li> -->
+              <li class="header-menu">
+                <span>Extra</span>
+              </li>
+              <!-- <li>
+                <a href="#">
+                  <i class="fa fa-book"></i>
+                  <span>Documentation</span>
+                  <span class="badge badge-pill badge-primary">Beta</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-calendar"></i>
+                  <span>Calendar</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-folder"></i>
+                  <span>Examples</span>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+          <!-- sidebar-menu  -->
+        </div>
+        <!-- sidebar-content  -->
+        <div class="sidebar-footer">
+          <a href="#">
+            <i class="fa fa-bell"></i>
+            <span class="badge badge-pill badge-success notification">1</span>
+          </a>
+          <!-- <a href="#">
+            <i class="fa fa-envelope"></i>
+            <span class="badge badge-pill badge-success notification">7</span>
+          </a>
+          <a href="#">
+            <i class="fa fa-cog"></i>
+            <span class="badge-sonar"></span>
+          </a>-->
+          <a href="https://github.com/coreDeiv" target="_blank">
+            <i class="fas fa-copyright"></i>
+            <span>David Torres | coreDeiv</span>
+          </a> 
+        </div>
+      </nav>
+      <!-- sidebar-wrapper  -->
+      <!-- Grid Snippets -->
+      <div class="page-content">
+        <main class="main">
+          <div class="grid" id="grid">
+  
+            <div class="item" data-category="banners" data-label="banner Banner landing Landing" data-description="1 - lorem ipsum dolor sit amet consectetur">
+              <div class="item-content">
+                <div class="item-img">
+                  <img src="media/img/proyects/whitCss/banner/Landing_01.png" alt="Media Buttons Style 1" title="Social Media Buttons">
+                </div>
+                <div class="item-btn bg-light">
+                  <a href="#" data-toggle="modal" data-target=".Landing_01-modal" class="btn btn-sm btn-dark">View Snippet</a>
+                </div>
+              </div>
+            </div>
+            <div class="item" data-category="banners" data-label="banner Banner Slider slider fashion Fashion" data-description="2 - lorem ipsum dolor sit amet consectetur">
+              <div class="item-content">
+                <div class="item-img">
+                  <img src="media/img/proyects/whitCss/banner/Landing_01.png" alt="Banner Style 1" title="Banner Shoes">
+                </div>
+                <div class="item-btn bg-light">
+                  <a href="#" data-toggle="modal" data-target=".Landing_02-modal" class="btn btn-sm btn-dark">View Snippet</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Example --
+            <div class="item" data-category="banners" data-label="banner Banner Slider slider fashion Fashion" data-description="2 - lorem ipsum dolor sit amet consectetur">
+              <div class="item-content">
+                <div class="item-img">
+                  <img src="media/img/proyects/whitCss/banner/Landing_01.png" alt="Banner Style 1" title="Banner Shoes">
+                </div>
+                <div class="item-btn bg-light">
+                  <a href="#" data-toggle="modal" data-target="(Clase del modal a abrir)" class="btn btn-sm btn-dark">View Snippet</a>
+                </div>
+              </div>
+            </div>
+            -- End Example -->
+  
+          </div>
+        </main>
+      </div>
+      <!-- End Grid Snippets -->
+
+      <!-- Modales -->
+      <div id="modals">
+
+        <!-- Landing_01 -->
+        <div class="modal fade Landing_01-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <!-- Content of Modal -->
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <!-- Snippet Modal Menu -->
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Result</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">HTML</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">CSS</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Modal Body -->
+              <div class="modal-body">
+                <!-- Navpills and Content navpills -->
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" contenteditable="true">
+                    <img src="media/img/proyects/whitCss/banner/Landing_01.png" class="img-fluid">
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <iframe class="iframe-code" src="views/banner/landing_01/landing_01.html" frameborder="0"></iframe>
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <iframe class="iframe-code" src="views/banner/landing_01/css.html" frameborder="0"></iframe>
+                  </div>
+                </div>
+              </div>              
+              <!-- Modal Footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-danger btn-close-modal" data-dismiss="modal">Close</button>
+              </div>              
+            </div>
+          </div>
+        </div>
+      
+    </div>
+    <!-- page-wrapper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src='https://kit.fontawesome.com/25f07c253e.js'></script>
+    <script src="js/libraries/muuri.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

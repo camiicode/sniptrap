@@ -1,0 +1,98 @@
+/* Components of Bootstrap 4 */
+.bg-main {
+  background: #ff685b; }
+
+.navbar-nav .nav-item.active > .nav-link {
+  color: #ff685b; }
+
+.bg-size-cover {
+  background-size: cover; }
+
+.bg-size-contain {
+  background-size: contain; }
+
+.bg-pos-center {
+  background-position: center; }
+
+.bg-rep-norep {
+  background-repeat: no-repeat; }
+
+.fz-05rem {
+  font-size: 0.5rem; }
+
+.fz-1rem {
+  font-size: 1rem; }
+
+.fz-2rem {
+  font-size: 2rem; }
+
+.fz-3rem {
+  font-size: 3rem; }
+
+.fz-4rem {
+  font-size: 4rem; }
+
+.fz-5rem {
+  font-size: 5rem; }
+
+.jc-evenly {
+  justify-content: space-evenly; }
+
+.selector-for-some-widget {
+  box-sizing: content-box; }
+
+.td-none {
+  text-decoration: none !important; }
+
+.ws-nw {
+  white-space: nowrap; }
+
+.w-5 {
+  width: 5%; }
+
+.w-10 {
+  width: 10%; }
+
+.w-15 {
+  width: 15%; }
+
+.w-20 {
+  width: 20%; }
+
+.w-30 {
+  width: 30%; }
+
+.w-35 {
+  width: 35%; }
+
+.w-40 {
+  width: 40%; }
+
+.w-45 {
+  width: 45%; }
+
+.w-55 {
+  width: 55%; }
+
+.w-60 {
+  width: 60%; }
+
+.w-65 {
+  width: 65%; }
+
+.w-70 {
+  width: 70%; }
+
+.w-80 {
+  width: 80%; }
+
+.w-85 {
+  width: 85%; }
+
+.w-90 {
+  width: 90%; }
+
+.w-95 {
+  width: 95%; }
+
+/*# sourceMappingURL=components.css.map */
