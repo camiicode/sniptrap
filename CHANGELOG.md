@@ -1,4 +1,5 @@
 
+- Added: New snippet of social media buttons                  - 1.3.4.beta
 - Correct: Correct last snippet added and index.html          - 1.3.3.beta
 - Added: index.html added new link by "Products"              - 1.3.2.beta
 - Correct: CHANGELOG.md correcting description                - 1.3.1.beta
